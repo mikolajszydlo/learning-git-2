@@ -1,17 +1,24 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+}
+
+h1,
+em {
+  padding: 0 10px;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
-.container h1 {
-  margin-bottom: 0;
+p {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
-.container footer {
-  font-size: 14px;
+p:hover {
+  background-color: rgba(73, 73, 73, 0.2);
 }
